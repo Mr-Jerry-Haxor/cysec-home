@@ -1,0 +1,302 @@
+body{
+    background: linear-gradient(107deg, rgba(71, 6, 255, 0.63) 0%, rgba(5, 90, 255, 0.57) 27.26%, rgba(0, 193, 169, 0.84) 47.07%, rgba(0, 64, 123, 0.65) 66.14%, rgba(67, 1, 255, 0.46) 100%);
+    /* background-color: black; */
+}
+
+.s1{
+    border-radius: var(--16px, 16px);
+border: 3px solid #ffffff52;
+background: var(--Glass, rgba(255, 255, 255, 0.10));
+backdrop-filter: blur(21px);
+
+    height: 72vh;
+    margin-bottom:3vh;
+}
+.s1 h1{
+    
+    color: #FFF;
+font-family: 'Inter';
+font-size: 36px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.s1 h2{
+    color: #FFF;
+font-family: 'Raleway';
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.s1 p{
+    color: #FFF;
+font-family: 'Raleway';
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.s1 img{
+    height: 30vh;
+    max-width: 44vw;
+
+}
+
+hr
+{
+    stroke-width: 1px;
+    stroke: var(--border-color-white-border, rgba(255, 255, 255, 0.20));
+}
+
+.s2{
+    border-radius: var(--16px, 16px);
+    border: 1px solid #b5ff3f;
+    /* background: linear-gradient(90deg, rgba(64, 198, 187, 0.61) 0.1%, rgba(107, 64, 198, 0.27) 100%), var(--Glass, rgba(255, 255, 255, 0.10)); */
+    color: #FFF;
+    font-family: Press Start 2P;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    height: 8vh;
+
+}
+.s2 button{
+    margin-top: 10px;
+    background-color: #5a7eab00;
+    border: 0px hidden;
+    color: #FFF;
+    font-family: 'Press Start 2P';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.s3{
+    border-radius: var(--16px, 16px);
+background: var(--Glass, rgba(255, 255, 255, 0.10));
+box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.24);
+backdrop-filter: blur(12px);
+    /* background-color: rgb(135, 197, 255); */
+    /* padding: auto; */
+    height: 83vh;
+}
+.s3 h1{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    /* line-height: 24px; 50% */
+}
+
+.s3 h2{
+    color: #FFF;
+font-family: Inter;
+font-size: 21px;
+font-style: normal;
+font-weight: 100;
+/* line-height: 24px;  */
+}
+
+
+.s3 h3{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+   margin-top: 10px;
+}
+
+.heading{
+color: #FFF;
+font-family: 'Press Start 2P';
+font-size: 45px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.9px;
+text-transform: capitalize;
+}
+
+.btn2{
+    border-radius: var(--16px, 16px);
+background: var(--surface-colors-surface-sidebar-topbar-surface, rgba(255, 255, 255, 0.10));
+box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.24);
+backdrop-filter: blur(12px);
+color: #FFF;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+
+}
+.btn3{
+    border-radius: var(--16px, 16px);
+background: linear-gradient(0deg, #5A7FAB 0%, #5A7FAB 100%), var(--surface-colors-surface-sidebar-topbar-surface, rgba(255, 255, 255, 0.10));
+box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.24);
+backdrop-filter: blur(12px);
+color: #FFF;
+font-family: 'Inter';
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+
+}
+
+.c{
+    display: flex;
+    flex-direction:row !important;
+}
+
+@media screen and (min-width: 0px) and (max-width: 720px) {
+    .c{
+        display: flex;
+        flex-direction:column !important;
+    }
+    .s3{
+        margin-top: 15px;
+    }
+    .s1 img{
+        height: 20vh;
+        max-width: 94vw;
+    
+    }
+    h4{
+        padding-left: 0px !important;
+        margin-top: 30px;
+        color: #FFF;
+    }
+    .description{
+        margin-top: 0px !important;
+        height: 80px;
+        color: #FFF;
+        padding-left: 0px !important;
+        overflow-y: auto;
+        font-family: 'Inter';
+    }
+    .date
+{
+    width: 261px;
+    height: 61px;
+    position: absolute;
+    left: 19px;
+    bottom: 70px !important;
+    border-radius: var(--16px, 16px);
+    border: 1px solid rgba(255, 255, 255, 0.58);
+    background-blend-mode: darken;
+    backdrop-filter: blur(41px);
+}
+}
+
+.date
+{
+    width: 261px;
+    height: 61px;
+    position: absolute;
+    left: 19px;
+    bottom: 100px;
+    border-radius: var(--16px, 16px);
+    border: 1px solid rgba(255, 255, 255, 0.58);
+    background-blend-mode: darken;
+    backdrop-filter: blur(41px);
+}
+.date1
+{
+    width: 47px;
+    height: 24px;
+    position: absolute;
+    bottom: 24px;
+    border-radius: var(--16px, 16px);
+    border: 1px solid rgba(255, 255, 255, 0.108);
+    background-blend-mode: darken;
+    backdrop-filter: blur(41px);
+}
+.datemain
+{
+width: 47px;
+height: 49px;
+position: absolute;
+left: 8px;
+bottom: 8px;
+border-radius: var(--16px, 16px);
+background: linear-gradient(329deg, rgba(212, 212, 212, 0.17) 10.35%, rgba(203, 203, 203, 0.00) 90.49%);
+}
+.datetext{
+    padding-top: 5px;
+    padding-left: 60px;
+    font-size: 14px !important;
+   font-family: 'Inter' !important;
+   color: rgba(255, 255, 255, 1);
+
+}
+.datetext2{
+    padding-left: 60px;
+    font-size: 10px !important;
+    font-family: 'Inter' !important;
+    color: rgba(255, 255, 255, 1);
+
+
+}
+#item_0 {
+    margin-top: 2px;
+    padding-left: 9px;
+    top: 0px;
+    width: 47px;
+    height: 24px;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 13px !important;
+    font-family: 'Inter';
+    }
+#item_1
+ {
+        padding-left: 15px;
+        padding-top: 22px;
+        font-size: 14px;
+        width: 17px;
+        font-family: "Inter";
+        color: #FFF;
+        font-weight: bold;
+}
+
+h4{
+    margin-top: 30px;
+    padding-left: 280px;
+    color: #FFF;
+}
+.description{
+    margin-top: 20px;
+    height: 80px;
+    font-size: 16px !important;
+    color: #FFF;
+    padding-left: 280px;
+    overflow-y: auto;
+    font-family: 'Inter' !important;
+}
+.description::-webkit-scrollbar {
+    display: none;
+}
+.description {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+hr{
+    margin-top: 8vh;
+    stroke-width: 1px;
+    stroke: var(--border-color-white-border, rgba(255, 255, 255, 0.20));
+}
+
+.btn1
+{
+    font-family: 'inter';
+    border-radius: var(--10px, 10px);
+    background: var(--surface-colors-surface-sidebar-topbar-surface, rgba(255, 255, 255, 0.10));
+    box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.24);
+    backdrop-filter: blur(12px);
+    
+    width: 528px;
+    height: 48px;
+}
